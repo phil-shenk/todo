@@ -53,7 +53,6 @@ def tasksToString(directory):
             with open(file, 'r') as infile:
                 text = infile.read()
                 unfrozen = jsonpickle.decode(text)
-                print(unfrozen)
                 result = result + str(unfrozen) +'\n'
     result = result + '</pre>'
     return result

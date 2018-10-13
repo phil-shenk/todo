@@ -9,7 +9,10 @@ def hello_world():
 @app.route('/list_tasks')
 def get_tasks():
     result = pt.tasksToString('tasks')
-    print(result)
+    print('seems to have worked')
     return result
 app.run(host='150.212.200.217')
+
+@app.route('/add_task')
+def add_task():
 
