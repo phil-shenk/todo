@@ -1,0 +1,28 @@
+00:57:52 >>> zzbop the bop bop pow
+00:58:38 >>> zzbop2
+00:58:58 >>> entering >>> input >>> from >>> cmd >>> line >>> args
+00:59:21 >>> entering input from cmd line args
+01:00:22 >>> the cat sat on themat
+01:03:03 >>> test
+01:03:41 >>> test 231u2413
+01:04:55 >>> -s
+01:07:40 >>> 
+01:07:47 >>> 
+01:07:54 >>> 
+01:11:49 >>> 
+01:11:54 >>> 
+01:11:58 >>> 
+01:12:27 >>> z
+01:12:31 >>> -s
+01:16:00 >>> -s
+01:19:38 >>> get ready for bed
+13:27:09 >>> lab start
+18:32:14 >>> finished ordering za
+18:37:44 >>> sleep
+18:40:29 >>> -s
+18:42:19 >>> -h
+18:45:07 >>> -t
+18:46:06 >>> -t test
+18:52:21 >>> meme
+18:52:35 >>> 420
+18:53:37 >>> aa
