@@ -1,4 +1,5 @@
-
+import os
+import jsonpickle
 from datetime import date
 from datetime import datetime
 
@@ -43,3 +44,16 @@ class Exam(CourseTask):
                 print('well I hope you learned')
                 studying = False
             
+def tasksToString(directory):
+    files = os.listdir(directory)
+    result = '<pre>'
+    for file in files:
+        file = os.path.join(directory,file)
+        if file.endswith('.json'):
+            with open(file, 'r') as infile:
+                text = infile.read()
+                unfrozen = jsonpickle.decode(text)
+                print(unfrozen)
+                result = result + str(unfrozen) +'\n'
+    result = result + '</pre>'
+    return result
